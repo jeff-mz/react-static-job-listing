@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  font-family: "League Spartan", "sans-serif", "Poppins", "Karla";
+}
+.custom-header {
+  height: 100px;
+  background: url(../public/images/bg-header-desktop.svg) center center/cover
+    no-repeat;
+  background-color: hsl(180, 29%, 50%);
+}
+.custom-logo {
+  position: static;
+}
+@media (max-width: 425px) {
+  .custom-header {
+    background: url(../public/images/bg-header-mobile.svg) center center/cover
+      no-repeat;
+    background-color: hsl(180, 29%, 50%);
+  }
+  .custom-logo {
+    position: absolute;
+    top: -55px;
+    left: 0;
+  }
+}
