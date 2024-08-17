@@ -15,10 +15,11 @@ Users should be able to:
 
 ### Screenshot 💻
 
-![](static-job-listing/public/design/desktop-preview.jpg)
+![](./public/design/desktop-preview.jpg)
 
 ### Built with 🚀
 
+- Html-Markup language
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Tailwind](https://tailwindcss.com/)
+- [Tailwind](https://tailwindcss.com/) - Css framework
